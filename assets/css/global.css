@@ -57,6 +57,8 @@ body {
     --darkgrey30: #9aa6b0;
     --darkblue20: #becbd3;
     --darkblue40: #4c6e84;
+    --green-50: rgba(147, 200, 84, 1);
+    --white-100: rgba(255, 255, 255, 1);
   
     /* Gaps */
     --gap-2xl: 21px;
