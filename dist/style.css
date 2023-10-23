@@ -6321,14 +6321,14 @@ input[type="checkbox"] {
 }
 
 .box {
-  width: 820px;
-  height: 555px;
+  max-width: 757px;
+  max-height: 546px;
 }
 
 .box .overlay {
   position: absolute;
-  width: 800px;
-  height: 555px;
+  max-width: 757px;
+  max-height: 546px;
   top: 0;
   left: 0;
   background-color: #f8fbfe;
@@ -6355,9 +6355,20 @@ input[type="checkbox"] {
 
 .animate-dissapear {
   position: absolute;
-  top: 15%;
+  top: 15.8%;
   left: 25%;
   animation: dissapear 300ms linear 1000ms 1 normal forwards;
+  top: 0px;
+  left: 0px;
+  display: none
+}
+
+@media (min-width: 768px) {
+  .animate-dissapear {
+    top: 15%;
+    left: 25%;
+    display: block;
+  }
 }
 
 @keyframes dissapear {
@@ -6369,7 +6380,7 @@ input[type="checkbox"] {
 
 .animate-extrance {
   /* animation: extrance 10s ease 0s 1 normal forwards; */
-  transform: translateY(120px);
+  transform: translateY(115px);
   animation: extrance 300ms linear 1000ms 0s 1 normal forwards;
 }
 
