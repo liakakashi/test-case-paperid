@@ -1070,7 +1070,7 @@ object-fit: cover;
 
 .popup {
     display: flex;
-    /* min-width: 320px; */
+    width: 320px;
     padding: 24px 16px;
     flex-direction: column;
     justify-content: center;
