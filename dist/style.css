@@ -6052,7 +6052,6 @@ input[type="checkbox"] {
 
 .body1 {
   align-self: stretch;
-  flex-direction: row;
   gap: 80px;
   font-size: 14px;
   color: var(--darkblue50);
@@ -6980,6 +6979,12 @@ input[type="checkbox"] {
 @media (min-width: 640px) {
   .sm\:underline {
     text-decoration-line: underline;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:block {
+    display: block;
   }
 }
 

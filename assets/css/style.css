@@ -2932,12 +2932,12 @@ object-fit: cover;
 }
 .body1 {
     align-self: stretch;
-    flex-direction: row;
     gap: 80px;
     font-size: 14px;
     color: var(--darkblue50);
     @apply flex md:flex-row flex-col md:gap-[80px] gap-3
 }
+
 .animate-modal {
     animation-name: reveal;
     animation-timing-function: linear;
