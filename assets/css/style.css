@@ -851,6 +851,7 @@ object-fit: cover;
     flex-direction: column;
     align-items: flex-start;
     gap: 4px;
+    @apply md:w-[156px] w-96
   }
   
   .checkbox-body {
@@ -1061,7 +1062,7 @@ object-fit: cover;
     margin: 16px;
     border-radius: 6px;
     background: rgba(19, 63, 93, 0.80);
-    width: 540px;
+    min-width: -webkit-fill-available;
     height: -webkit-fill-available;
     z-index: 99 !important;
     top:0;
@@ -1081,7 +1082,7 @@ object-fit: cover;
     border-radius: 10px;
     background: linear-gradient(133deg, #1E79B7 0%, #004575 100%);
     z-index: 999 !important;
-    @apply md:left-[126px] left-7
+    @apply md:left-[126px] left-[16px]
   }
   
   .popup img {
@@ -1103,7 +1104,7 @@ object-fit: cover;
     border-radius: 10px;
     background: linear-gradient(133deg, #1E79B7 0%, #004575 100%);
     z-index: 999 !important;
-    @apply md:left-[110px] left-7
+    @apply md:left-[110px] left-[16px]
   }
   
   .popup-2 img {
@@ -1238,7 +1239,7 @@ object-fit: cover;
     text-align: center;
     top: 54px;
     position: relative;
-    @apply lg:text-5xl text-2xl md:px-0 px-4
+    @apply lg:text-5xl text-3xl md:px-0 px-4
 }
 
 .hiw-container {
@@ -1251,7 +1252,7 @@ object-fit: cover;
     flex-wrap: wrap;
     flex-direction: column;
     width: fit-content;
-    @apply md:mt-[154px] mt-20 md:ml-[147px] mx-8 md:mr-[103px] md:gap-[17px] gap-2
+    @apply md:mt-[154px] mt-24 md:ml-[147px] mx-8 md:mr-[103px] md:gap-[17px] gap-2
 }
 
 .hiw-stepDetail-active {
@@ -1278,7 +1279,7 @@ object-fit: cover;
     font-style: normal;
     font-weight: 700;
     line-height: 135%; /* 64.8px */
-    @apply lg:text-5xl text-2xl
+    @apply lg:text-5xl text-3xl
 }
 
 .hiw-stepText-active {
@@ -1312,7 +1313,7 @@ object-fit: cover;
     font-style: normal;
     font-weight: 700;
     line-height: 135%; /* 64.8px */
-    @apply lg:text-5xl text-2xl
+    @apply lg:text-5xl text-3xl
 }
 
 .hiw-stepText {
@@ -1856,7 +1857,7 @@ object-fit: cover;
     font-style: normal;
     font-weight: 700;
     line-height: 82px; /* 170.833% */
-    @apply lg:text-5xl text-2xl
+    @apply lg:text-5xl text-3xl
 }
 
 .benefit-content {
@@ -1870,7 +1871,7 @@ object-fit: cover;
     flex-direction: column;
     align-items: flex-start;
     flex: 1 0 0;
-    @apply md:gap-[14px] gap-0
+    @apply md:gap-[14px] gap-2
 }
 
 .list-heading {
@@ -1890,7 +1891,7 @@ object-fit: cover;
     font-style: normal;
     font-weight: 700;
     line-height: 125%; /* 32.5px */
-    @apply md:text-[26px] text-xl
+    @apply md:text-[26px] text-[23px]
 }
 
 .benefit-img {
@@ -1910,9 +1911,10 @@ object-fit: cover;
 .list .line {
     position: absolute;
     width: 3px;
-    height: 316px;
-    top: 4px;
+    height: 280px;
+    top: 38px;
     left: 22px;
+    @apply md:block hidden
 }
 
 .list .point {
@@ -1978,7 +1980,7 @@ object-fit: cover;
     font-size: 40px;
     font-style: normal;
     font-weight: 700;
-    @apply md:text-[40px] md:leading-[60px] text-2xl md:text-left text-center md:w-[591px] w-auto
+    @apply md:text-[40px] md:leading-[60px] text-3xl md:text-left text-center md:w-[591px] w-auto
 }
 
 .chekout-product {
@@ -2811,7 +2813,7 @@ object-fit: cover;
     padding: var(--padding-3xs);
     gap: 10px;
 }
-.rp-50000001,
+.rp1,
 .subtotal1 {
     position: relative;
     line-height: 135%;
@@ -2821,7 +2823,7 @@ object-fit: cover;
     width: 73px;
     flex-shrink: 0;
 }
-.rp-50000001 {
+.rp1 {
     text-align: right;
 }
 .subtotal {
@@ -2837,7 +2839,7 @@ object-fit: cover;
     height: 0.3px;
     object-fit: cover;
 }
-.rp-50000002,
+.rp2,
 .total-pembayaran1 {
     position: relative;
     line-height: 135%;
@@ -2847,7 +2849,7 @@ object-fit: cover;
     /* width: 129px; */
     flex-shrink: 0;
 }
-.rp-50000002 {
+.rp2 {
     color: var(--blue50);
     text-align: right;
 }
@@ -2942,7 +2944,7 @@ object-fit: cover;
     gap: 80px;
     font-size: 14px;
     color: var(--darkblue50);
-    @apply flex md:flex-row flex-col md:gap-[80px] gap-3
+    @apply flex md:flex-row flex-col md:gap-[80px] gap-3 justify-between
 }
 
 .animate-modal {
@@ -3273,6 +3275,7 @@ object-fit: cover;
     align-items: center;
     gap: 10px;
     align-self: stretch;
+    @apply md:py-[10px] md:px-[20px] p-0
 }
 
 .frame-appear-btn {
@@ -3383,8 +3386,8 @@ object-fit: cover;
     gap: 88px;
     flex-shrink: 0;
     justify-content: center;
-    margin-bottom: 75px;
-    padding-left: 30px
+    padding-left: 30px;
+    @apply md:mb-[75px] mb-8 md:mt-0 mt-3
 }
 
 .footer-atas-area {
@@ -3642,4 +3645,38 @@ object-fit: cover;
 
 .flex-notes {
     @apply flex sm:flex-row flex-col gap-y-4 justify-center
+}
+
+.line-footer {
+    @apply md:py-0 py-4
+}
+
+/* MODAL */
+
+.modal-style {
+    max-width: 820px; 
+    min-height: 555px; 
+    padding: 10px 40px 40px 40px;
+}
+
+.modal-style2 {
+    display: flex; 
+    max-width: 525px;
+    padding: 16px 24px 24px 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px; 
+    background: linear-gradient(133deg, #1E79B7 0%, #004575 100%);
+}
+
+.modal-style3 {
+    display: flex; 
+    max-width: 320px;
+    padding: 24px 16px 32px 16px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px; 
+    background: linear-gradient(133deg, #1E79B7 0%, #004575 100%);
 }
