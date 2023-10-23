@@ -1191,6 +1191,7 @@ object-fit: cover;
     line-height: 135%; /* 21.6px */
     display: flex;
     align-items: flex-end;
+    @apply md:text-base text-sm
   }
   
   .floating-text {
