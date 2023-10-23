@@ -3896,7 +3896,7 @@ input[type="checkbox"] {
   border-radius: 10px;
   background: linear-gradient(133deg, #1E79B7 0%, #004575 100%);
   z-index: 999 !important;
-  left: 1rem
+  left: 1.75rem
 }
 
 @media (min-width: 768px) {
@@ -3924,7 +3924,7 @@ input[type="checkbox"] {
   border-radius: 10px;
   background: linear-gradient(133deg, #1E79B7 0%, #004575 100%);
   z-index: 999 !important;
-  left: 1rem
+  left: 1.75rem
 }
 
 @media (min-width: 768px) {
@@ -5610,7 +5610,7 @@ input[type="checkbox"] {
 }
 
 .choose {
-  width: 363px;
+  /* width: 363px; */
   flex-direction: row;
   padding: var(--padding-3xs);
   box-sizing: border-box;
@@ -5625,7 +5625,7 @@ input[type="checkbox"] {
 
 .divider-icon {
   position: relative;
-  width: 363px;
+  /* width: 363px; */
   height: 0.3px;
   z-index: 1;
   -o-object-fit: cover;
@@ -5673,7 +5673,7 @@ input[type="checkbox"] {
 }
 
 .choose1 {
-  width: 363px;
+  /* width: 363px; */
   flex-direction: row;
   padding: var(--padding-3xs);
   box-sizing: border-box;
@@ -5688,13 +5688,13 @@ input[type="checkbox"] {
 
 .divider-icon1 {
   position: relative;
-  width: 363px;
+  /* width: 363px; */
   height: 0.3px;
   z-index: 3;
 }
 
 .title6 {
-  width: 363px;
+  /* width: 363px; */
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -5718,7 +5718,7 @@ input[type="checkbox"] {
 }
 
 .koinworks {
-  width: 363px;
+  /* width: 363px; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -5771,7 +5771,7 @@ input[type="checkbox"] {
 
 .details {
   background-color: var(--artboard-surface-default);
-  width: 363px;
+  /* width: 363px; */
   display: none;
   flex-direction: row;
   padding: var(--padding-9xs) var(--padding-3xs) var(--padding-3xs);
@@ -5812,7 +5812,7 @@ input[type="checkbox"] {
 }
 
 .investree {
-  width: 363px;
+  /* width: 363px; */
   flex-direction: row;
   align-items: center;
   padding: var(--padding-3xs);
@@ -6242,7 +6242,7 @@ input[type="checkbox"] {
 
 .details {
   display: flex;
-  width: 363px;
+  /* width: 363px; */
   max-height: 56px;
   align-items: flex-start;
   gap: 8px;

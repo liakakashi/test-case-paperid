@@ -1081,7 +1081,7 @@ object-fit: cover;
     border-radius: 10px;
     background: linear-gradient(133deg, #1E79B7 0%, #004575 100%);
     z-index: 999 !important;
-    @apply md:left-[126px] left-4
+    @apply md:left-[126px] left-7
   }
   
   .popup img {
@@ -1103,7 +1103,7 @@ object-fit: cover;
     border-radius: 10px;
     background: linear-gradient(133deg, #1E79B7 0%, #004575 100%);
     z-index: 999 !important;
-    @apply md:left-[110px] left-4
+    @apply md:left-[110px] left-7
   }
   
   .popup-2 img {
@@ -2528,7 +2528,7 @@ object-fit: cover;
     justify-content: flex-start;
 }
 .choose {
-    width: 363px;
+    /* width: 363px; */
     flex-direction: row;
     padding: var(--padding-3xs);
     box-sizing: border-box;
@@ -2541,7 +2541,7 @@ object-fit: cover;
 }
 .divider-icon {
     position: relative;
-    width: 363px;
+    /* width: 363px; */
     height: 0.3px;
     z-index: 1;
     object-fit: cover;
@@ -2581,7 +2581,7 @@ object-fit: cover;
     justify-content: flex-start;
 }
 .choose1 {
-    width: 363px;
+    /* width: 363px; */
     flex-direction: row;
     padding: var(--padding-3xs);
     box-sizing: border-box;
@@ -2594,12 +2594,12 @@ object-fit: cover;
 }
 .divider-icon1 {
     position: relative;
-    width: 363px;
+    /* width: 363px; */
     height: 0.3px;
     z-index: 3;
 }
 .title6 {
-    width: 363px;
+    /* width: 363px; */
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -2619,7 +2619,7 @@ object-fit: cover;
     object-fit: cover;
 }
 .koinworks {
-    width: 363px;
+    /* width: 363px; */
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2665,7 +2665,7 @@ object-fit: cover;
 }
 .details {
     background-color: var(--artboard-surface-default);
-    width: 363px;
+    /* width: 363px; */
     display: none;
     flex-direction: row;
     padding: var(--padding-9xs) var(--padding-3xs) var(--padding-3xs);
@@ -2700,7 +2700,7 @@ object-fit: cover;
     justify-content: flex-start;
 }
 .investree {
-    width: 363px;
+    /* width: 363px; */
     flex-direction: row;
     align-items: center;
     padding: var(--padding-3xs);
@@ -3085,7 +3085,7 @@ object-fit: cover;
 
 .details {
     display: flex;
-    width: 363px;
+    /* width: 363px; */
     max-height: 56px;
     align-items: flex-start;
     gap: 8px;
