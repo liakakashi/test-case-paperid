@@ -1328,7 +1328,7 @@ object-fit: cover;
 }
 
 .hiw-pendaftaran {
-    display: inline-flex;
+    /* display: inline-flex; */
     padding: 80px 15px 0px 0px;
     align-items: center;
     width: 706px;
@@ -1344,6 +1344,7 @@ object-fit: cover;
     align-items: center;
     gap: 166px;
     position: relative;
+    @apply md:pr-[73px] md:pl-[46px] px-0
 }
 
 .hiw-list-step {

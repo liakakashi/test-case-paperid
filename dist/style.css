@@ -4227,7 +4227,7 @@ input[type="checkbox"] {
 }
 
 .hiw-pendaftaran {
-  display: inline-flex;
+  /* display: inline-flex; */
   padding: 80px 15px 0px 0px;
   align-items: center;
   width: 706px;
@@ -4251,6 +4251,15 @@ input[type="checkbox"] {
   align-items: center;
   gap: 166px;
   position: relative;
+  padding-left: 0px;
+  padding-right: 0px
+}
+
+@media (min-width: 768px) {
+  .hiw-pendaftaran-list {
+    padding-right: 73px;
+    padding-left: 46px;
+  }
 }
 
 .hiw-list-step {
@@ -6982,8 +6991,8 @@ input[type="checkbox"] {
   }
 }
 
-@media (min-width: 768px) {
-  .md\:block {
+@media (min-width: 1024px) {
+  .lg\:block {
     display: block;
   }
 }
