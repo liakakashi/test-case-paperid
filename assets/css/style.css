@@ -1194,20 +1194,20 @@ object-fit: cover;
   }
   
   .floating-text {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-        padding: 0 8px 16px;
-        gap: 8px;
-        font-size: 16px;
-        color: #C2CDD5;
-        animation-name: motion;
-        animation-timing-function: linear;
-        animation-duration: 800ms;
-        animation-delay: 250ms;
-        animation-iteration-count: infinite;
-        animation-direction: alternate;
-        animation-fill-mode: both;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 0 8px 16px;
+    gap: 8px;
+    font-size: 16px;
+    color: #C2CDD5;
+    animation-name: motion;
+    animation-timing-function: linear;
+    animation-duration: 800ms;
+    animation-delay: 250ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-fill-mode: both;
   }
   
   @keyframes motion {
@@ -3364,7 +3364,6 @@ object-fit: cover;
     line-height: normal;
     cursor: pointer;
 }
-
 
 /* FOOTER */
 .footer {
