@@ -1274,7 +1274,6 @@ object-fit: cover;
 }
 
 .hiw-stepNo-active {
-    color: #FFF;
     font-family: Lato;
     font-style: normal;
     font-weight: 700;
@@ -1284,7 +1283,6 @@ object-fit: cover;
 
 .hiw-stepText-active {
     flex: 1 0 0;
-    color: #FFF;
     leading-trim: both;
     text-edge: cap;
     font-family: Lato;
@@ -1305,7 +1303,6 @@ object-fit: cover;
 }
 
 .hiw-stepNo {
-    color: #133F5D;
     leading-trim: both;
     text-edge: cap;
     font-family: Lato;
@@ -1317,7 +1314,6 @@ object-fit: cover;
 }
 
 .hiw-stepText {
-    color: #133F5D;
     leading-trim: both;
     flex: 1 0 0;
     text-edge: cap;
@@ -1337,7 +1333,7 @@ object-fit: cover;
     width: 706px;
     flex-direction: column;
     justify-content: flex-end;
-    @apply md:mt-[60px] mt-0 md:h-[573px] h-auto
+    @apply md:mt-[60px] mt-0 md:h-[640px] h-auto
 }
 
 .hiw-pendaftaran-list {

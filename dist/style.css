@@ -2019,6 +2019,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#4199D5\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 153 213 / var(--tw-bg-opacity));
+}
+
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -4174,7 +4179,6 @@ input[type="checkbox"] {
 }
 
 .hiw-stepNo-active {
-  color: #FFF;
   font-family: Lato;
   font-style: normal;
   font-weight: 700;
@@ -4193,7 +4197,6 @@ input[type="checkbox"] {
 
 .hiw-stepText-active {
   flex: 1 0 0;
-  color: #FFF;
   leading-trim: both;
   text-edge: cap;
   font-family: Lato;
@@ -4220,7 +4223,6 @@ input[type="checkbox"] {
 }
 
 .hiw-stepNo {
-  color: #133F5D;
   leading-trim: both;
   text-edge: cap;
   font-family: Lato;
@@ -4241,7 +4243,6 @@ input[type="checkbox"] {
 }
 
 .hiw-stepText {
-  color: #133F5D;
   leading-trim: both;
   flex: 1 0 0;
   text-edge: cap;
@@ -4273,7 +4274,7 @@ input[type="checkbox"] {
 @media (min-width: 768px) {
   .hiw-pendaftaran {
     margin-top: 60px;
-    height: 573px;
+    height: 640px;
   }
 }
 
@@ -7066,8 +7067,18 @@ input[type="checkbox"] {
   }
 }
 
+.hover\:bg-\[\#4199D5\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(65 153 213 / var(--tw-bg-opacity));
+}
+
 .hover\:font-bold:hover {
   font-weight: 700;
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .before\:hover\:text-center:hover::before {
